@@ -12,7 +12,8 @@
       "esModuleInterop": true,
       "skipLibCheck": true,
       "typeRoots": ["./src/typings/", "node_modules/@types" ],
-      "forceConsistentCasingInFileNames": true
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": false
     },
     "include": ["src/**/*.ts"],
     "exclude": ["node_modules", "dist"]
